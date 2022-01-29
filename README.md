@@ -11,6 +11,6 @@
 1. Star并Fork本仓库以及青龙面板
 2. 打开[Railway](https://railway.app)，点击右上角**Login**，选择**Github**以使用GitHub注册
 3. 点击**New Project**，选择**Start from GitHub**，选择本仓库
-4. 点击New Variable，填入KEY为``TOKEN``， VALUE为**你的Ngrok Authtoken**
+4. 点击New Variable，填入第一条：KEY为``TOKEN``， VALUE为**你的Ngrok Authtoken**；第二条：KEY为``PORT``，VALUE为``5700``
 5. 点击Deploy部署，去[Ngrok Dashboard](https://dashboard.ngrok.com)查询连接地址，默认账户是``root``，密码是``york618``
 6. 青龙面板则是Railway Dashboard的Endpoint
