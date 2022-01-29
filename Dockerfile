@@ -1,5 +1,6 @@
 FROM whyour/qinglong:latest
 RUN echo 'PermitRootLogin yes' >>  /etc/ssh/sshd_config 
+RUN apk add chpasswd
 RUN echo root:york618|chpasswd
 EXPOSE 22
 RUN apk add wget curl
